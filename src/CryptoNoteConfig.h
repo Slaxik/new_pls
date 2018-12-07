@@ -92,10 +92,10 @@ const size_t   FUSION_TX_MAX_SIZE                            = CRYPTONOTE_BLOCK_
 const size_t   FUSION_TX_MIN_INPUT_COUNT                     = 12;
 const size_t   FUSION_TX_MIN_IN_OUT_COUNT_RATIO              = 4;
 
-const uint32_t UPGRADE_HEIGHT_V2                             = 11831;
-const uint32_t UPGRADE_HEIGHT_V3                             = 11931;
-const uint32_t UPGRADE_HEIGHT_V4                             = 12031;
-const uint32_t UPGRADE_HEIGHT_V5                             = 12131;
+const uint32_t UPGRADE_HEIGHT_V2                             = 11800;
+const uint32_t UPGRADE_HEIGHT_V3                             = 11900;
+const uint32_t UPGRADE_HEIGHT_V4                             = 12000;
+const uint32_t UPGRADE_HEIGHT_V5                             = 12100;
 const unsigned UPGRADE_VOTING_THRESHOLD                      = 90; // percent
 const uint32_t UPGRADE_VOTING_WINDOW                         = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
 const uint32_t UPGRADE_WINDOW                                = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
@@ -163,7 +163,7 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {
   {100,		"cc5133a55eac068fbbe512dab52b62d6dc5486a0c4da03f5389da8422b2e967c" },
   {1000,	"dece7c338cb084377748106548bfcc14d50c1a7d20e98435a1118c81db3c86fb" },
   {10000,	"7a296132cca0c2e550a824c7997e9a129d019d1e87512e3959c0f86568521932" },
-  {11831, 	"3a031e33a3ae414826b2e5182b17ae776c9adedefea1e1145abd443141cd2bc5" }
+  {11800,       "c7eb3a09d83bef3cdcd313c4c4ff98ce868e10abf0d50bce0a1423a71ae80c00" }
 };
 
 } // CryptoNote
